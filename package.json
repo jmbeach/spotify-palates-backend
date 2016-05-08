@@ -1,0 +1,25 @@
+{
+  "name": "spotify-palates",
+  "version": "1.0.0",
+  "description": "Treats your Spotify playlists like they are color palates to help you make more complex playlists. Ex: Take a song from happy and sad playlist to help make mellow playlist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "keywords": [
+    "spotify",
+    "playlist",
+    "palate"
+  ],
+  "author": "Jared Beach",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "spotify-web-api-node": "^2.3.0"
+  }
+}
